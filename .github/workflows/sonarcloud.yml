@@ -27,4 +27,3 @@ jobs:
           args: >
             -Dsonar.projectKey=Nagesh9890_java_devops2
             -Dsonar.organization=nagesh9890
-            # Add other optional properties here if needed

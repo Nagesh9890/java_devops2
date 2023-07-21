@@ -23,7 +23,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Generate a token on Sonarcloud.io, add it to the secrets of this repo with the name SONAR_TOKEN (Settings > Secrets > Actions > add new repository secret)
         with:
-          # Additional arguments for the sonarcloud scanner
+          # Additional arguments for the sonarcloud scannernew
           args: >
-            -Dsonar.projectKey=Nagesh9890_java_devops2
+            -Dsonar.projectKey=Nagesh9890_java_devops2 
             -Dsonar.organization=nagesh9890
